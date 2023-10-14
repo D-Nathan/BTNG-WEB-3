@@ -1,0 +1,134 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+nav {
+  background-color: darkseagreen;
+  padding: 25px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  box-shadow: 0px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+nav .container {
+  display: flex;
+
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {     
+  display: inline;
+  margin: 0 10px;
+  border-bottom: 3px solid red; /* warna garis bawa teks */
+}
+
+nav li a{
+  color: azure;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: red; /* warna keluar di zoom */
+  font-size: 18px;
+}
+
+
+.content { /*baris pertama */
+  padding: 125px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#Foto-Profil {
+  margin-top: 10px;
+    width: 200px; 
+    height: 250px;
+    margin-bottom: 25px;
+}
+
+#fotoutama {
+  background-color: var();
+  text-align: center;
+  padding-block: 10px;
+}
+
+#fotoutama {
+  margin-top: 20px;
+    width: 200px; 
+    height: 250px;
+    margin-bottom: 5px;
+}
+
+
+#gambar-magang {
+    width: 500px;
+    height: 340px;
+    margin-bottom: 25px;
+    text-align: center;
+    padding-block: 10px;
+    margin-top: 10px;
+}
+
+
+
+section {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+section h2 { /*judul teks*/
+  font-size: 30px;
+}
+
+section p { /*ukuran teks*/
+  font-size: 16px;
+  text-align: center;
+  padding-block: 18px;
+}
+
+#contact form {
+  padding: 70px;
+ padding-inline: 300px;
+}
+
+#contact input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: solid 1px #000;
+  margin-block: 10px;
+}
+
+#contact label {
+  font-weight: 600;
+}
+
+#contact button {
+  display: block;
+  margin-inline: auto;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border:solid 1px #000;
+  font-size: 18px;
+  margin-top: 20px; 
+}
+
+.footer {
+  text-align: center;
+  background-color: var();
+  color: floralwhite;
+  padding: 20px;
+}
